@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SupportingProjects", "SupportingProjects", "{6397F477-8416-40E3-9A51-BE669D5E41B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileOperationProviders", "FileOperationProviders", "{FC2D1C6E-FFE8-4D48-B5B4-FA58928EBE93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FOS.AddIns.FileOperationProviders.MyCustomFOP", "FileOperationProviders\MyCustomFOP\FOS.AddIns.FileOperationProviders.MyCustomFOP.csproj", "{A5ACCF07-F68B-47AA-99AF-9096B192B989}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5ACCF07-F68B-47AA-99AF-9096B192B989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5ACCF07-F68B-47AA-99AF-9096B192B989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5ACCF07-F68B-47AA-99AF-9096B192B989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5ACCF07-F68B-47AA-99AF-9096B192B989}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A5ACCF07-F68B-47AA-99AF-9096B192B989} = {FC2D1C6E-FFE8-4D48-B5B4-FA58928EBE93}
+	EndGlobalSection
+EndGlobal
