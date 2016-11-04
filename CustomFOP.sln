@@ -7,23 +7,51 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SupportingProjects", "Suppo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileOperationProviders", "FileOperationProviders", "{FC2D1C6E-FFE8-4D48-B5B4-FA58928EBE93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FOS.AddIns.FileOperationProviders.MyCustomFOP", "FileOperationProviders\MyCustomFOP\FOS.AddIns.FileOperationProviders.MyCustomFOP.csproj", "{A5ACCF07-F68B-47AA-99AF-9096B192B989}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FOS.AddIns.FileOperationProviders.Revit", "FileOperationProviders\Revit\FOS.AddIns.FileOperationProviders.Revit.csproj", "{A5ACCF07-F68B-47AA-99AF-9096B192B989}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Revit", "Revit", "{3FAC1B45-C77B-4B3A-BA37-3975E4E8A97A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RevitWrapper", "SupportingProjects\Revit\RevitWrapper\RevitWrapper.vcxproj", "{BC14C645-3B14-41E4-A9DC-E0B1B6DD3F54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A5ACCF07-F68B-47AA-99AF-9096B192B989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A5ACCF07-F68B-47AA-99AF-9096B192B989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5ACCF07-F68B-47AA-99AF-9096B192B989}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A5ACCF07-F68B-47AA-99AF-9096B192B989}.Debug|x64.Build.0 = Debug|Any CPU
+		{A5ACCF07-F68B-47AA-99AF-9096B192B989}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A5ACCF07-F68B-47AA-99AF-9096B192B989}.Debug|x86.Build.0 = Debug|Any CPU
 		{A5ACCF07-F68B-47AA-99AF-9096B192B989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5ACCF07-F68B-47AA-99AF-9096B192B989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5ACCF07-F68B-47AA-99AF-9096B192B989}.Release|x64.ActiveCfg = Release|Any CPU
+		{A5ACCF07-F68B-47AA-99AF-9096B192B989}.Release|x64.Build.0 = Release|Any CPU
+		{A5ACCF07-F68B-47AA-99AF-9096B192B989}.Release|x86.ActiveCfg = Release|Any CPU
+		{A5ACCF07-F68B-47AA-99AF-9096B192B989}.Release|x86.Build.0 = Release|Any CPU
+		{BC14C645-3B14-41E4-A9DC-E0B1B6DD3F54}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{BC14C645-3B14-41E4-A9DC-E0B1B6DD3F54}.Debug|x64.ActiveCfg = Debug|x64
+		{BC14C645-3B14-41E4-A9DC-E0B1B6DD3F54}.Debug|x64.Build.0 = Debug|x64
+		{BC14C645-3B14-41E4-A9DC-E0B1B6DD3F54}.Debug|x86.ActiveCfg = Debug|Win32
+		{BC14C645-3B14-41E4-A9DC-E0B1B6DD3F54}.Debug|x86.Build.0 = Debug|Win32
+		{BC14C645-3B14-41E4-A9DC-E0B1B6DD3F54}.Release|Any CPU.ActiveCfg = Release|Win32
+		{BC14C645-3B14-41E4-A9DC-E0B1B6DD3F54}.Release|x64.ActiveCfg = Release|x64
+		{BC14C645-3B14-41E4-A9DC-E0B1B6DD3F54}.Release|x64.Build.0 = Release|x64
+		{BC14C645-3B14-41E4-A9DC-E0B1B6DD3F54}.Release|x86.ActiveCfg = Release|Win32
+		{BC14C645-3B14-41E4-A9DC-E0B1B6DD3F54}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A5ACCF07-F68B-47AA-99AF-9096B192B989} = {FC2D1C6E-FFE8-4D48-B5B4-FA58928EBE93}
+		{3FAC1B45-C77B-4B3A-BA37-3975E4E8A97A} = {6397F477-8416-40E3-9A51-BE669D5E41B8}
+		{BC14C645-3B14-41E4-A9DC-E0B1B6DD3F54} = {3FAC1B45-C77B-4B3A-BA37-3975E4E8A97A}
 	EndGlobalSection
 EndGlobal

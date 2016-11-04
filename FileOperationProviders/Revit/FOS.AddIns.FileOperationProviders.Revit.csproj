@@ -7,8 +7,8 @@
     <ProjectGuid>{A5ACCF07-F68B-47AA-99AF-9096B192B989}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FOS.AddIns.FileOperationProviders.MyCustomFOP</RootNamespace>
-    <AssemblyName>FOS.AddIns.FileOperationProviders.MyCustomFOP</AssemblyName>
+    <RootNamespace>FOS.AddIns.FileOperationProviders.Revit</RootNamespace>
+    <AssemblyName>FOS.AddIns.FileOperationProviders.Revit</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
