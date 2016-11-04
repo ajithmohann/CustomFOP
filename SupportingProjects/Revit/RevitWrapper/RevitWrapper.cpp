@@ -8,7 +8,9 @@ namespace RevitWrapper {
 
 	void RevitFilePropertiesManager::GetFileProperties()
 	{
-
+		for (int idx = 0; idx < 10; idx++)
+		{
+		}
 	}
 
 	void RevitFilePropertiesManager::UpdateFileProperties()
