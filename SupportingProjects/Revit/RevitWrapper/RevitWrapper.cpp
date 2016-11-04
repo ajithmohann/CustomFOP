@@ -8,8 +8,10 @@ namespace RevitWrapper {
 
 	void RevitFilePropertiesManager::GetFileProperties()
 	{
+		// TODO: Remove this for loop
 		for (int idx = 0; idx < 10; idx++)
 		{
+			// some more code.
 		}
 	}
 
